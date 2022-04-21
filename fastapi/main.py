@@ -1,10 +1,7 @@
-import email
 import json
-from uuid import UUID
 from fastapi import FastAPI
 from typing import Optional, List
 from pydantic import BaseModel, Field
-from uuid import UUID, uuid4
 from fastapi import Query, Path, FastAPI
 
 app = FastAPI()
